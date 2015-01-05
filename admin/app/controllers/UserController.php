@@ -11,17 +11,16 @@ class UserController extends BaseController
 
 			User::create([ 
 				'password' 	=> Hash::make('txtPassword'), 
-				'name' 		=> Input::get('txtUsuario'),
+				'name' 		=> Input::get('txtName'),
 				'email'		=> Input::get('txtEmail'),
 				'type' 		=> Input::get('cbType')
 				]);
 
-			Session::flash('mensajeGlobal' , 'Usuario registrado correctamente');
-			Session::flash('color' , 'green');
+			Session::flash('mensajeGlobal' , '1');
 		}
 		if(Session::has('mensajeGlobal'))
 		{
-			return View::make('addUser', ['mensajeGlobal' => Session::get('mensajeGlobal') , 'color' => Session::get('color')] );
+			return View::make('addUser', ['mensajeGlobal' => Session::get('mensajeGlobal')]);
 		}
 		return View::make('addUser');
 
