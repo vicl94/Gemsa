@@ -1,0 +1,14 @@
+[22-Dec-2014 05:29:24 UTC] PHP Fatal error:  Call to undefined method Illuminate\Filesystem\Filesystem::create() in /home/duikeradm/public_html/gemsa/admin/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 208
+[22-Dec-2014 05:29:42 UTC] PHP Fatal error:  Call to undefined method Illuminate\Filesystem\Filesystem::create() in /home/duikeradm/public_html/gemsa/admin/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 208
+[22-Dec-2014 05:34:31 UTC] PHP Fatal error:  Call to undefined method Illuminate\Filesystem\Filesystem::create() in /home/duikeradm/public_html/gemsa/admin/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 208
+[22-Dec-2014 05:36:58 UTC] PHP Fatal error:  Call to undefined method Illuminate\Filesystem\Filesystem::create() in /home/duikeradm/public_html/gemsa/admin/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 208
+[22-Dec-2014 05:37:44 UTC] PHP Fatal error:  Call to undefined method Illuminate\Filesystem\Filesystem::create() in /home/duikeradm/public_html/gemsa/admin/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 208
+[22-Dec-2014 05:38:14 UTC] PHP Fatal error:  Call to undefined method Illuminate\Filesystem\Filesystem::create() in /home/duikeradm/public_html/gemsa/admin/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 208
+[22-Dec-2014 06:37:11 UTC] PHP Warning:  Uncaught exception 'ErrorException' with message 'Undefined variable: table' in /home/duikeradm/public_html/gemsa/admin/app/database/migrations/2014_12_22_043642_create_files_table.php:15
+Stack trace:
+#0 /home/duikeradm/public_html/gemsa/admin/app/database/migrations/2014_12_22_043642_create_files_table.php(15): Illuminate\Exception\Handler->handleError(8, 'Undefined varia...', '/home/duikeradm...', 15, Array)
+#1 /home/duikeradm/public_html/gemsa/admin/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(135): CreateFilesTable->up()
+#2 /home/duikeradm/public_html/gemsa/admin/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(111): Illuminate\Database\Migrations\Migrator->runUp('2014_12_22_0436...', 2, false)
+#3 /home/duikeradm/public_html/gemsa/admin/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php(82): Illuminate\Database\Migrations\Migrator->runMigrationList(Array, false)
+#4 /home/duikeradm/public_html/gemsa/admin/vendor/laravel/framework/src in /home/duikeradm/public_html/gemsa/admin/app/database/migrations/2014_12_22_043642_create_files_table.php on line 15
+[22-Dec-2014 06:37:11 UTC] PHP Fatal error:  Call to a member function increments() on a non-object in /home/duikeradm/public_html/gemsa/admin/app/database/migrations/2014_12_22_043642_create_files_table.php on line 15
